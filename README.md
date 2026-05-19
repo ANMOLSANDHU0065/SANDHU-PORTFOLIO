@@ -1,2 +1,2 @@
 # SANDHU-PORTFOLIO
-Modern responsive portfolio website built with HTML, CSS &amp; JavaScript showcasing web development projects, UI/UX skills, Python learning, and creative frontend work.
+Modern and fully responsive portfolio website built using HTML, CSS, and JavaScript to showcase my web development journey, creative frontend projects, technical skills, certifications, and learning experience. The portfolio includes multiple responsive websites such as gym websites, travel platforms, e-commerce designs, real estate landing pages, NGO platforms, authentication systems, and UI clone projects. Focused on modern UI/UX design, smooth user experience, responsive layouts, animations, and continuous learning in Python, frontend, and backend development.
