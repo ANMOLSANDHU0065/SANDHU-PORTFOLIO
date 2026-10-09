@@ -927,6 +927,11 @@ strong { color: var(--text); font-weight: 600; }
     color: var(--text-muted);
 }
 
+
+
+
+
+
 /* ─── 14. Contact ─── */
 .contact-grid {
     display: grid;
@@ -949,6 +954,22 @@ strong { color: var(--text); font-weight: 600; }
     border-radius: var(--radius-sm);
     display: inline-flex;
 }
+
+
+
+/* ─── Contact Form Alignment ─── */
+
+.contact-grid {
+    align-items: start;
+}
+
+.contact-form {
+    margin-top: -9rem;
+}
+
+
+
+
 .contact-item__label {
     display: block;
     font-size: .72rem;

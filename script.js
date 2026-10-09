@@ -86,11 +86,12 @@ function initTypingEffect() {
     const el = document.getElementById('typingText');
     if (!el) return;
 
-    const phrases = [
-        'Software Engineer',
-        'Full-Stack Developer',
-        'Problem Solver'
+const phrases = [
+    'Data Analyst',
+    'Python Developer',
+    'Problem Solver'
     ];
+
     let phraseIdx = 0;
     let charIdx = 0;
     let deleting = false;
@@ -212,26 +213,60 @@ function initBackToTop() {
     });
 }
 // sandhu
-/* ── Contact Form (basic handler) ── */
+
+/* ── Contact Form ── */
 function initContactForm() {
     const form = document.getElementById('contactForm');
     if (!form) return;
 
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
         e.preventDefault();
+
         const btn = form.querySelector('button[type="submit"]');
         const origHTML = btn.innerHTML;
 
-        btn.innerHTML = '<span>Sent!</span>';
+        btn.innerHTML = '<span>Sending...</span>';
         btn.style.pointerEvents = 'none';
         btn.style.opacity = '.7';
 
-        setTimeout(() => {
-            btn.innerHTML = origHTML;
-            btn.style.pointerEvents = '';
-            btn.style.opacity = '';
-            form.reset();
-        }, 2500);
+        try {
+            const formData = new FormData(form);
+
+            const response = await fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                btn.innerHTML = '<span>Sent!</span>';
+
+                setTimeout(() => {
+                    btn.innerHTML = origHTML;
+                    btn.style.pointerEvents = '';
+                    btn.style.opacity = '';
+                    form.reset();
+                }, 2500);
+
+            } else {
+                throw new Error(result.message || 'Something went wrong');
+            }
+
+        } catch (error) {
+            console.error('Web3Forms Error:', error);
+
+            btn.innerHTML = '<span>Failed!</span>';
+
+            setTimeout(() => {
+                btn.innerHTML = origHTML;
+                btn.style.pointerEvents = '';
+                btn.style.opacity = '';
+            }, 2500);
+        }
     });
 }
 // sandhu
