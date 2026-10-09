@@ -27,7 +27,9 @@ The project focuses on a clean visual presentation, responsive layouts, intuitiv
 
 ## Languages Used
 **HTML5:** Used to structure website content and sections.
+
 **CSS3:** Used for visual styling, layouts, typography, and responsive design.
+
 **JavaScript:** Used for client-side interactions where implemented.
 
 ## Technologies and Tools
@@ -68,6 +70,7 @@ The website was developed using HTML, CSS, and JavaScript. Git and GitHub were u
   
 
 **Designed and developed by Anmol Singh Sandhu**
+
 *Learning continuously. Building practically. Growing through technology.*
 
 
