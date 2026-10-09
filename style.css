@@ -366,13 +366,29 @@ strong { color: var(--text); font-weight: 600; }
     animation: cursor-blink 1s step-end infinite;
 }
 /* sandhu */
-.hero-desc {
+/* .hero-desc {
     font-size: 1.05rem;
     color: var(--text-sec);
     line-height: 1.75;
     max-width: 560px;
     margin: 0 auto 2rem;
+} */
+
+
+
+.hero-desc {
+font-size: 1.05rem;
+color: var(--text-sec);
+line-height: 1.85;
+max-width: 600px;
+margin: 0 auto 2rem;
+text-align: center;
+text-wrap: pretty;
 }
+
+
+
+
 .hero-actions {
     display: flex;
     gap: 1rem;
