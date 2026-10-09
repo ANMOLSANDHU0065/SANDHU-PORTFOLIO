@@ -65,6 +65,8 @@ The website was developed using HTML, CSS, and JavaScript. Git and GitHub were u
   
 
 **Designed and developed by Anmol Singh Sandhu**
+
+
 *Learning continuously. Building practically. Growing through technology.*
 
 
