@@ -53,13 +53,6 @@ The project focuses on a clean visual presentation, responsive layouts, intuitiv
 ## Development Process
 The website was developed using HTML, CSS, and JavaScript. Git and GitHub were used to manage source code and track updates. The website is hosted on Render and can be accessed through the Live Demo link above.
 
-## Project Details
-**Project Name:** SANDHU PORTFOLIO
-**Project Type:** Personal Portfolio Website
-**Domain:** Frontend Web Development
-**Developer:** Anmol Singh Sandhu
-**Repository:** https://github.com/ANMOLSANDHU0065/SANDHU-PORTFOLIO
-**Live Website:** https://sandhu-portfolio-dnn3.onrender.com/
 
 ## Future Improvements
 * Add more projects and practical implementations.
