@@ -1,8 +1,10 @@
 # SANDHU PORTFOLIO
-**Personal Portfolio | Frontend Web Development**
+Welcome to My Digital Portfolio 🚀
+Frontend Developer | BCA Student | Aspiring Software Engineer
+Welcome to my personal portfolio! This website showcases my technical skills, creative ideas, and projects built through hands-on experience and continuous learning.
 
-Welcome to my personal portfolio repository! This website represents my technical journey, creative approach, and passion for building modern web experiences.
 
+I enjoy turning ideas into interactive, responsive, and user-friendly web experiences while exploring new technologies and improving my development skills.
 
 Explore my portfolio website here:
 ## 🚀 Live Demo
